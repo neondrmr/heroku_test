@@ -1,6 +1,7 @@
 Rails.application.routes.draw do
   resources :links
   root 'links#index'
+  #fake comment to test github update
   
 
   # The priority is based upon order of creation: first created -> highest priority.
